@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #337ab7;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.titre {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  margin-bottom: 40px;
+}
+
+.ressources h2 {
+  margin-top: 40px;
+}
+
+.astuces-et-bonnes-pratiques h2 {
+  margin-top: 40px;
+}
+
+.dernieres-tendances h2 {
+  margin-top: 40px;
+}
+
+.communaute h2 {
+  margin-top: 40px;
+}
+.conteneur-videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* espace entre les vidéos */
+  max-width: 800px; /* largeur maximale du conteneur */
+  margin: 0 auto; /* centrer le conteneur */
+}
+
+.video {
+  width: 45%; /* largeur de chaque vidéo */
+  height: auto; /* hauteur automatique */
+  border-radius: 10px; /* bordures arrondies */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ombre */
+}
